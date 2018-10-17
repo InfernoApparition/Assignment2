@@ -1,3 +1,6 @@
+%Whole code has been written from scratch. No references were taken while
+%writing the code.
+
 global kernel kernelmatrix img padmatrix K
 [address,No_img_selected] = imgetfile(); %function return two variable "image address", "image selected or not" 
 kernel = imread(address);
